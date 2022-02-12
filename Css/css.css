@@ -14,8 +14,13 @@ nav {
   text-align: right;
   position: fixed;
   top: 0px;
-  left: 0px;
   font-weight: bold;
+}
+nav li {
+  display: inline;
+  padding: 30px;
+  margin: auto;
+  
 }
 a {
   color: #000;
@@ -25,23 +30,16 @@ a {
   padding: 0 20px;
   height: 40px;
   font-size: 1em;
-  font-weight: 900;
+  font-weight: bold;
   text-transform: uppercase;
   border: 3px black solid;
   border-radius: 2px;
-  background: transparent;
   cursor: pointer;
 }
 #email {
   max-width: 275px;
   width: 100%;
   padding: 5px;
-}
-nav li {
-  display: inline;
-  padding: 30px;
-  margin: auto;
-  
 }
 header {
   padding: 0px;
@@ -53,14 +51,13 @@ figure {
   margin: auto 100px;
 
 }
-figure img{
+figure img {
   display:list-item;
   width: 70px;
   margin: auto;
   float: left; 
-  background-attachment:unset;
 }
-figure p{
+figure p {
   text-align: center;
   background-color:silver;
   padding: auto;
@@ -92,18 +89,22 @@ section ul{
   text-align: left;
   display: grid;
 }
-footer {
-  color: #000;
-  background-color: aqua;
-  padding: 10px 20px;
-  text-align: center;
-}
 .level {
   background-color: silver;
   font-weight: bold;
   text-align: center;
   
 }
+footer {
+  color: #000;
+  background-color: aqua;
+  padding: 10px 20px;
+  text-align: center;
+}
+footer a {
+  padding: 20px;
+}
+
 
 
 
