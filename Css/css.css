@@ -1,3 +1,109 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: auto;
+  margin: auto;
+  background-color:#eee;
+
+}
 nav {
+  display: inline;
+  background-color: aquamarine;
+  padding: 0px 0px;
+  width: 100%;
+  margin: auto; 
+  text-align: right;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  font-weight: bold;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+#email {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+nav li {
+  display: inline;
+  padding: 30px;
+  margin: auto;
   
 }
+header {
+  padding: 0px;
+  width: 50%;
+  margin: 100px auto 50px;
+  text-align: center; 
+}
+figure {
+  margin: auto 100px;
+
+}
+figure img{
+  display:list-item;
+  width: 70px;
+  margin: auto;
+  float: left; 
+  background-attachment:unset;
+}
+figure p{
+  text-align: center;
+  background-color:silver;
+  padding: auto;
+  width: 50%;
+  margin: 30px auto;
+  font-weight: bold;
+}
+figcaption {
+  text-align: center;
+  margin: 0px 50px;
+}
+.video {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+section ul{
+  list-style: none;
+  margin: 40px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  width: 60%;
+  text-align: left;
+  display: grid;
+}
+footer {
+  color: #000;
+  background-color: aqua;
+  padding: 10px 20px;
+  text-align: center;
+}
+.level {
+  background-color: silver;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+
+
